@@ -1,0 +1,33 @@
+.todo {
+  &-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 100px;
+    gap: 16px;
+  }
+
+  &-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 16px;
+  }
+
+  &-input {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  &-item {
+    display: flex;
+    gap: 16px;
+  }
+
+  &-remove {
+    background-color: red;
+    color: white;
+    border: none;
+  }
+}

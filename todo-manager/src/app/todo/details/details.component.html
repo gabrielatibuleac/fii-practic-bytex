@@ -1,0 +1,7 @@
+<div *ngIf="localTodo" class="todo-container">
+  {{ localTodo?.text }}
+
+  <span [class.done]="localTodo.checked" class="todo-status">
+    {{ localTodo.checked ? 'Done' : 'Not done yet' }}
+  </span>
+</div>
